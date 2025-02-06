@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        #main{
+            /* height: 0%; */
+            background-color: rgba(0, 0, 0, 0.945);
+        }
+        #b1{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        #b2{
+            margin-left: 2%;
+            margin-right:2%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        
+        #btn1{
+            height: 3.8vh;
+            width: 8%;
+            font-size: 11px;
+            cursor: pointer;
+            background-color: black;
+            border: 1px solid white;
+            color: white;   
+        }
+        #btn2{
+            height: 3.8vh;
+            width: 8%;
+            font-size: 11px;
+            cursor: pointer;
+            background-color: rgba(0, 0, 0, 0.945);
+            border: 1px solid white;
+            color: white;   
+        }
+        #Bulb1{
+            width: 18.8%;
+            display: block;
+        }
+        #Bulb2{
+            width: 18.5%;
+            display: none;
+            }
+        </style>
+    </head> 
+        <body id="main">
+            <div id="b1">
+                <img src="IMG/Bulb_ON.jpeg" alt="" id="Bulb1">
+                <img src="IMG/Bulb_Of.png" alt="" id="Bulb2">
+            </div>
+            <div id="b2">
+                <button id="Btn1" onclick="onbulb()"> TURN ON </button>
+                <button id="Btn2" onclick="ofbulb()"> TURN OF </button>
+            </div>
+            
+    <!-- <button onclick="btn1('A')">a</button>
+    <button onclick="btn1('B')">b</button>
+    <button onclick="btn1('C')">c</button>
+    <button onclick="btn1('D')">d</button>
+    <button onclick="btn1('E')">e</button>
+</body> -->
+<script src="app.js"></script>
+
+</html>
